@@ -310,7 +310,7 @@
   <!-- Footer section -->
   <footer class="bg-gradient-to-b from-[#ff000019] to-[#ff893819] py-10 px-5 ">
     <div class="flex flex-col md:flex-row gap-5 justify-between container mx-auto">
-      <img src="images/cup.png" alt="cup">
+      <img src="images/cup.png" alt="cup" class="w-10 md:w-14">
       <p class="space-x-6 ">
         <span class="text-[#494949] font-medium">Ready to get started?</span>
         <button class="btn text-base text-light bg-gradient-to-r from-[#FF8938] to-[#FF0000] border-none">Get
@@ -343,10 +343,11 @@
         <h6 class="footer-title text-dark text-xl">Subscribe to our newsletter</h6>
         <fieldset class="form-control w-80">
           <div class="relative">
+            <label for="text" class="text-dark text-base">Enter your email</label>
             <input type="text"
-              class="input bg-transparent border-[#454545] border-b-2 border-0 rounded-none outline-0" />
+              class="input bg-transparent border-[#454545] border-b-2 border-0 rounded-none outline-0 focus:outline-none focus-visible:none p-3" />
             <button
-              class="text-base text-light bg-gradient-to-r from-[#FF8938] to-[#FF0000] absolute top-0 right -0 border-none rounded-full w-10 py-3"><i
+              class="text-base text-light bg-gradient-to-r from-[#FF8938] to-[#FF0000] absolute right-0 bottom-0 border-none rounded-full w-16 py-2"><i
                 class="fa-solid fa-angle-right"></i></button>
           </div>
         </fieldset>
